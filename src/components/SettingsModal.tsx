@@ -102,16 +102,18 @@ export default function SettingsModal({ isOpen, onClose, onSettingsChanged, them
           </button>
         </div>
 
-        {/* Info label banner */}
+        {/* Info label banner - Use Minimax models for best performance and output */}
         <div className="mb-4 text-xs p-3 bg-indigo-500/10 rounded-xl border border-indigo-500/20 text-indigo-400 flex items-start gap-2">
           <RefreshCw className="w-3.5 h-3.5 mt-0.5 shrink-0" />
           <span>
-            Connect OpenAI, OpenRouter, DeepSeek, or any other compatible provider. Your secrets are preserved carefully on your local browser.
+            Use the Minimax models for best performance and output. Your secrets are preserved carefully on your local browser.
           </span>
         </div>
 
         {/* Inputs */}
         <div className="space-y-4">
+          {/* OpenAI-Compatible Base URL field hidden - Using Minimax as default provider */}
+          {/*
           <div>
             <label className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5 flex items-center gap-1.5">
               <Globe className="w-3.5 h-3.5" />
@@ -129,6 +131,7 @@ export default function SettingsModal({ isOpen, onClose, onSettingsChanged, them
             />
             <p className="text-[10px] text-slate-500 mt-1">Minimax OpenAI-compatible endpoint URL.</p>
           </div>
+          */}
 
           <div>
             <label className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5 flex items-center gap-1.5">
