@@ -1,0 +1,6 @@
+{
+  "name": "AI App Planner & Architect",
+  "description": "An interactive digital workstation to sketch ideas, draft Product Requirement Documents (PRDs), design relational SQL schemas, organize Kanban sprint boards, and render responsive HTML mockups styled with Tailwind CSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
